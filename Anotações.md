@@ -17,3 +17,8 @@ Declaração UPDATE. As restrições podem complicar sua operação e pode ser q
 
 ### DELETE
 Declaração DELETE. As restrições podem causar anomalias ou erros. Se torna indepotente após a primeira execução.
+
+
+O **DAO** provê uma abstração entre JDBC e o resto do código. Pode ser tanto uma abstração quanto um verdadeiro objeto. Os **DTOs**(Data Transfer Objects) costumam ser usados com os DAOs. DTO é um objeto completamente encapsulado que pode possuir sub objetos. Geralmente isso pode ser entendido como tabelas mães e filhas. A entrada e saída de um DAO deve ser um DTO e suas tabelas filhas. DAO deve conter os dados de um único domínio, i.e., os dados de endereço, telefone e e-mail de um usuário devem estar em um único DAO. Mas ele suporta múltiplas tabelas; afinal, se trabalhamos com uma única tabela, devemos estar montando um repositório.
+
+O DAO pode aproveitar os métodos de OO para criar um Factory de DAO, permitindo o uso de caminhos comuns de operações de CRUD. 

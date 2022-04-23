@@ -11,12 +11,17 @@ public class JDBCExecuter {
                 "hplussport", "postgres", "password");
         try {
             Connection connection = dcm.getConnection();
-            Statement stmt = connection.createStatement();
-            ResultSet resultSet = stmt.executeQuery("SELECT COUNT(*) FROM customer");
+            CustomerDAO customerDAO = new CustomerDAO(connection);
+            Customer customer = new Customer();
+            customer.setFirstName("Eduardo Carlos");
+            customer.setLastName("Pereira de Magalhaes");
+            customer.setEmail("eduardo.p@email.com");
+            customer.setPhone("(55) 35 98765-4321");
+            customer.setAddress("Rua Olimpia 37");
+            customer.setState("MG");
+            customer.setZipCode("08456-362");
 
-            while(resultSet.next()) {
-                System.out.println(resultSet.getInt(1));
-            }
+            customerDAO.create(customer);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
