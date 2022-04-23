@@ -12,16 +12,11 @@ public class JDBCExecuter {
         try {
             Connection connection = dcm.getConnection();
             CustomerDAO customerDAO = new CustomerDAO(connection);
-            Customer customer = new Customer();
-            customer.setFirstName("Eduardo Carlos");
-            customer.setLastName("Pereira de Magalhaes");
-            customer.setEmail("eduardo.p@email.com");
-            customer.setPhone("(55) 35 98765-4321");
-            customer.setAddress("Rua Olimpia 37");
-            customer.setState("MG");
-            customer.setZipCode("08456-362");
-
-            customerDAO.create(customer);
+            Customer customer = customerDAO.findById(10000);
+            System.out.println(customer.getFirstName() +" "+ customer.getLastName() +" "+ customer.getEmail());
+            customer.setEmail("eduardo.pm@reverendosegramaticosassociation.com");
+            customer = customerDAO.update(customer);
+            System.out.println(customer.getFirstName() +" "+ customer.getLastName() +" "+ customer.getEmail());
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

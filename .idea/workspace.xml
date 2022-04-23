@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0200880-a489-42ef-bbf3-c7cfe4e1291d" name="Changes" comment="&quot;First connection and Query on database&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/util/DataAccessObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/util/DataTransferObject.java" afterDir="false" />
+    <list default="true" id="e0200880-a489-42ef-bbf3-c7cfe4e1291d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anotações.md" beforeDir="false" afterPath="$PROJECT_DIR$/Anotações.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/JDBCExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/JDBCExecuter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650280550054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Create first object and then query it&quot;">
+      <created>1650722930498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650722930498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +114,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;First commit, with firsts configurations on POM.xml and first class&quot;" />
     <MESSAGE value="&quot;First connection and Query on database&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;First connection and Query on database&quot;" />
+    <MESSAGE value="&quot;Create first object and then query it&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Create first object and then query it&quot;" />
   </component>
 </project>
