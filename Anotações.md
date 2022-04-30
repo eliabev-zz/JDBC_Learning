@@ -21,4 +21,11 @@ Declaração DELETE. As restrições podem causar anomalias ou erros. Se torna i
 
 O **DAO** provê uma abstração entre JDBC e o resto do código. Pode ser tanto uma abstração quanto um verdadeiro objeto. Os **DTOs**(Data Transfer Objects) costumam ser usados com os DAOs. DTO é um objeto completamente encapsulado que pode possuir sub objetos. Geralmente isso pode ser entendido como tabelas mães e filhas. A entrada e saída de um DAO deve ser um DTO e suas tabelas filhas. DAO deve conter os dados de um único domínio, i.e., os dados de endereço, telefone e e-mail de um usuário devem estar em um único DAO. Mas ele suporta múltiplas tabelas; afinal, se trabalhamos com uma única tabela, devemos estar montando um repositório.
 
-O DAO pode aproveitar os métodos de OO para criar um Factory de DAO, permitindo o uso de caminhos comuns de operações de CRUD. 
+O DAO pode aproveitar os métodos de OO para criar um Factory de DAO, permitindo o uso de caminhos comuns de operações de CRUD.
+
+Deve haver uma classe *DAO* com todas as queries do SQL. Essa classe é que deve ser acessada para alterar o objeto que está sendo persistido no banco de dados. A classe DAO deve conter uma query que contemple todas as alterações possíveis.
+
+>UPDATE customer SET first_name = ?, " +
+            "last_name = ?, email = ?, phone = ?, address = ?, city = ?, state = ?, zipcode = ? WHERE customer_id = ?";
+
+Entretanto, não vai ser necessário usar todas essas alterações possíveis. Pode ser feita apenas uma mudança de email, por exemplo, sem se preocupar com as demais.

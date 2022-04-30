@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0200880-a489-42ef-bbf3-c7cfe4e1291d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anotações.md" beforeDir="false" afterPath="$PROJECT_DIR$/Anotações.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/JDBCExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/casa/eliabe/jdbc/JDBCExecuter.java" afterDir="false" />
     </list>
@@ -35,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="JDBCExecuter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.casa.eliabe.jdbc.JDBCExecuter" />
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650722930498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Reading and Updating&quot;">
+      <created>1650730368680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650730368680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +124,7 @@
     <MESSAGE value="&quot;First commit, with firsts configurations on POM.xml and first class&quot;" />
     <MESSAGE value="&quot;First connection and Query on database&quot;" />
     <MESSAGE value="&quot;Create first object and then query it&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Create first object and then query it&quot;" />
+    <MESSAGE value="&quot;Reading and Updating&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Reading and Updating&quot;" />
   </component>
 </project>
